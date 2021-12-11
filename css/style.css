@@ -103,10 +103,186 @@ nav ul li a:hover {
 /* Header Section Ends */
 
 
+/* Homepage Section Sart */
+
+
+/* I haven't found a way for IE and Edge to let me style inputs that way */
+/* .slider-main input {
+	appearance: none;
+	-ms-appearance: none;
+	-webkit-appearance: none;
+	display: block;
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transform: translateX(100%);
+	transition: transform ease-in-out 400ms;
+	z-index: 15;
+} */
+
+/* .slider-main input:focus {
+	outline: none;
+}
+
+.slider-main input:after {
+	content: attr(title);
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	padding: .5rem;
+	font-size: 1rem;
+	border-radius: 5px;
+} */
+
+/* .slider-main input:not(checked):before {
+	content: '';
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	top: 50%;
+	left: calc(-100% + 1rem);
+} */
+/* 
+.slider-main input:checked:before {
+	display: none;
+	left: 1rem;
+}
+
+.slider-main input:checked {
+	transform: translateX(0);
+	pointer-event: none;
+	z-index: 5;
+	box-shadow: -5px 10px 20px -15px rgba(0,0,0,1);
+} */
+
+/* .slider-main input:checked + .slider-main input:before {
+	left: -3rem;
+}
+
+.slider-main inputut:checked + .slider-main input ~ .slider-main input:before {
+	display: none;
+} */
+#home{
+    margin-top: -66px;
+}
+.main-sec{
+    height: 100%;
+}
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+}     
+       
+.mySlides {
+    display: none;
+    position: absolute;
+    width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+    
+}
+ .mySlides img {
+     object-fit: cover;
+    position: absolute;
+    width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+} 
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.mySlides .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4;} 
+  to {opacity: 1;}
+  
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+/* Homepage Section Ends */
+
 /* About Section Starts*/
 
 #about {
-    margin: 2em auto;
+    margin: 4em auto;
 }
 
 
