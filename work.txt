@@ -1,0 +1,58 @@
+FAQs
+Testimonial
+Team Member
+Our clients
+Portfolio
+
+
+Three Services
+Web Development, Digital Marketing, Graphics Designing
+
+Single Page Website
+
+Banner
+
+
+Final Roadmap
+
+
+Homepage
+	1. Navigation
+		a. Logo
+		
+		
+		b. Home
+		c. About Us
+		d. Services
+		e. Portfolio
+		f. Contact Us
+	2. Banner/Slider/Gif
+	3. Our Quote
+	4. Button fo scrolldown
+
+About Us
+
+Slider(services) - https://www.saffronedge.com/digital-marketing-services
+
+Portfolio - https://www.watconsult.com/
+
+Our Team - https://www.brainworkindia.net/
+
+Our Client - https://www.brainworkindia.net/
+
+Testimonial - https://www.saffronedge.com/digital-marketing-services
+
+FAQs - https://www.saffronedge.com/digital-marketing-services
+
+Contact Us - https://www.watconsult.com/
+
+Footer - 
+	1. Logo
+	2. Navigation
+	3. Services
+		a. Web Development
+		b. Digital Marketing
+		c. Graphics Designing
+	4. Socials
+	5. Portfolio Link
+	6. Contact & Address
