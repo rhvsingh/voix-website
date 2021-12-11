@@ -734,9 +734,20 @@ footer>div>div {
     border-top: 1px solid #777
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     #footer-2 {
-        display: block
+        display: block;
+        padding-block: 0
+    }
+    #footer-2>div {
+        margin: 25px auto
+    }
+    #footer-2>div:first-child {
+        margin: 25px auto;
+        margin-top: 10px
+    }
+    #footer-2 ul li {
+        margin: 0.3rem 0
     }
 }
 
