@@ -110,7 +110,11 @@ for (let i = 0; i < portfolioImageSection.length; i++) {
 function toggleMenu() {
     document.getElementById('scrollEffect').classList.toggle('active');
 }
-
+function ShowHelloMessage() {
+    var name = document.getElementById("myname");
+    document.getElementById("hellomessage").innerHTML = "Hello, " + name.value;
+}
+document.getElementById("mybutton").onclick = ShowHelloMessage;
 
 
 var slideIndex = 1;
